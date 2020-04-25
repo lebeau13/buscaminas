@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Buscaminas</title>
+
+  <link href="css/style.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+
+
+<body onload="cargarTablero();">
+
+  <div class="grid-container">
+    <div class="temporizador" id="temporizador"></div>
+
+    
+    <div class="cara"></div>
+    <div class="conteo" id="contador"></div>
+
+    <div class="tableros">
+      <div id="tablerominas" class="tablero"></div>
+    </div>
+  </div>
+
+
+
+
+
+  <div id="myModal" class="modal">
+
+    <div id="contenido" class="modal-content">
+      <p>Perdiste</p>
+      <button onclick="location.reload()">Volver a intentarlo</button>
+    </div>
+
+  </div>
+
+  <div id="ganaste" class="modal">
+
+    <div id="contenido" class="modal-content">
+      <p>Ganaste</p>
+      <button onclick="location.reload()">Volver a intentarlo</button>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
